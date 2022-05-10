@@ -129,7 +129,7 @@ public class ExperimentController : MonoBehaviour
         //}
 
         ResetIndStimCount();
-        taskCanvasTransform.localPosition = new Vector3 (0, 0, .3f);
+        taskCanvasTransform.localPosition = new Vector3 (0, 0, .35f);
     }
 
     // Update is called once per frame

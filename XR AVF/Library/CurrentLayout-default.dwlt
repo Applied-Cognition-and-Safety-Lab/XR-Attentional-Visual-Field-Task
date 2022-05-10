@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 59
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 68
+  controlID: 21
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 69
+  controlID: 67
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,9 +398,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5c3f0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 8ccaffff2ecbffff34cdffff8ecdffff9ecdffffc8d4ffff9cd5ffffb2d8ffffd6dcffffccdeffff4adfffffe2e3ffffa2e4ffffe2e4ffff3ee7ffff40e8ffff36edffffecedffff9aeeffff3cf0ffff7cf1ffff00f6ffff96f8ffff5af9ffff2efaffff4cfbfffff4ffffff943f0000c43f0000dc3f0000144000009a400000b0400000e0400000f84000003e4200005442000060420000844200009c420000fa4200002a43000042430000844500009a450000ca450000e2450000b4470000e4470000fc4700008e4a0000d64a0000364d00007e4d0000ce4e0000164f00009a500000ca500000e2500000b4520000e4520000fc520000fa5500002a560000425600005c5c00008c5c0000a45c0000fa5e00002a5f0000425f0000
+      m_SelectedIDs: 863f0000
+      m_LastClickedID: 16262
+      m_ExpandedIDs: 0efaffff4cfbffff9c3f0000cc3f0000e43f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -611,14 +611,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: G:\XR AVF
+  m_LastProjectPath: G:\XR-Attentional-Visual-Field-Task\XR AVF
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 503f0000
     m_LastClickedID: 16208
-    m_ExpandedIDs: 00000000463f0000483f00004a3f00004c3f000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000463f0000483f00004a3f00004c3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -45,7 +45,7 @@ public class DataHolder : MonoBehaviour
         numberOfExp = exposureTimes.Length;
         numberOfDirec = 8;
         numOfTrials = numberOfDirec * numberOfEcc * numberOfExp * trialRepetitions;
-        screenDistance = 300;
+        screenDistance = 350;
 
     }
 
