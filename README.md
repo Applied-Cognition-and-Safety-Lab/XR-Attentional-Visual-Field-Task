@@ -5,9 +5,20 @@ Traditionally, an Attentional Visual Field task is developed for and conducted o
 <br>
 # XR Attentional Visual Field Task
 
-This XR Attentional Visual Field Task is based on the computer-based AVF task. It has been developed to work with most VR and AR headsets by implementing the OpenXR API within the Unity3D game engine.
+This XR Attentional Visual Field Task is based on the computer-based AVF task. It has been developed to work with most VR and AR headsets by implementing the OpenXR API within the Unity3D game engine. This project uses Unity version 2020.3.7f1. 
 
 <br>
 <br>
 # Getting Started
-Download 
+
+Install Unity version 2020.3.7f1 if it is not already present on your device to ensure the project works as intended.
+
+Download the zip folder with all of the required files for Unity. 
+
+Extract the files from the zip folder and add the project folder titled "XR AVF" as a new project through the Unity Hub.
+
+Launch the project through the Unity Hub.
+
+Add any assets necessary for your experiment such as, a virtual environment, virtual objects, etc.
+
+Modify the experiment settings on the Experiment Controller object.
