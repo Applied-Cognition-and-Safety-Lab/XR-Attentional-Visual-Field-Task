@@ -9,7 +9,7 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 
 <br>
 <br>
-#Getting Started
+# Getting Started
 
 Install Unity version 2020.3.7f1 if it is not already present on your device to ensure the project works as intended.
 
