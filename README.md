@@ -6,7 +6,6 @@ Traditionally, an Attentional Visual Field task is developed for and conducted o
 # XR Attentional Visual Field Task
 
 This XR Attentional Visual Field Task is based on the computer-based AVF task. It has been developed to work with most VR and AR headsets by implementing the OpenXR API within the Unity3D game engine. This project uses Unity version 2020.3.7f1. 
-
 <br>
 <br>
 
