@@ -19,6 +19,11 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 
 4. Launch the project through the Unity Hub.
 
-5. Add any assets necessary for your experiment such as, a virtual environment, virtual objects, eye-tracking add-ons, etc.
+5. Add any assets necessary for your experiment to the TaskRoom scene. This could include things such as, a virtual environment, virtual objects, eye-tracking add-ons, etc.
 
-6. Modify the experiment settings on the Experiment Controller object.
+6. Modify the experiment settings on the Experiment Settings object located in the InfoScreen scene.
+<br>
+<br>
+
+# Explanation of Experiment Settings
+![Exp Settings](https://user-images.githubusercontent.com/105318271/177386898-2be44241-2846-41b5-95b6-e4b67a9bec81.png)
