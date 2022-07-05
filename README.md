@@ -29,5 +29,9 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 ![Exp Settings](https://user-images.githubusercontent.com/105318271/177431751-725002e8-59d5-478c-ad72-bf67ff205285.png)
 Setting | Description
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Num Of Blocks | Determines how many blocks the experiment will have.
+Target Visual Angle | The size of the target stimulus in the number of degrees in visual angle.
+Distractor Visual Angle | The size of the distractor stimuli in the number of degrees in visual angle.
+Eccentricities | The number of locations in each direction that a target will appear in. Expand this list to set the individual eccentricity values to control exactly where the stimuli will appear in the number of degrees in visual angle.
+Exposure Times | The number of different display times that each target will appear for. Expand this list to set the individual exposure time values to control exactly how long the target stimulus will be visible for in each trial.
+Trial Repetitions | Determines how many times each unique trial will be presented in each block. A unique trial is comprised of an eccentricity, an exposure time, and a direction within the visual field. Stimuli will appear in 8 different directions in any iteration of this experiment as it is based on the computer AVF task. In this example image, there would be 72 unique trials (8 directions x 3 eccentricities x 3 exposure times) per block. 2 trial repetitions would lead to there being 144 total trials in the experiment.
