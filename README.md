@@ -26,4 +26,8 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 <br>
 
 # Explanation of Experiment Settings
-![Exp Settings](https://user-images.githubusercontent.com/105318271/177386898-2be44241-2846-41b5-95b6-e4b67a9bec81.png)
+![Exp Settings](https://user-images.githubusercontent.com/105318271/177431751-725002e8-59d5-478c-ad72-bf67ff205285.png)
+Setting | Description
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
