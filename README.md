@@ -9,7 +9,7 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 <br>
 <br>
 
-# Getting Started
+# Getting Started 
 
 1. Install Unity version 2020.3.7f1 if it is not already present on your device to ensure the project works as intended.
 
@@ -22,6 +22,8 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 5. Add any assets necessary for your experiment to the TaskRoom scene. This could include things such as, a virtual environment, virtual objects, eye-tracking add-ons, etc.
 
 6. Modify the experiment settings on the Experiment Settings object located in the InfoScreen scene.
+
+7. If the headset cannot connect to a numpad for responding and controlling the flow of the experiment or if you would like to use a different response mechanism, modify the Experiment Controller script to implement an alternative method to start the experiment and for participants to respond to the trials with.
 
 7. Build the Unity project and run the Unity-generated executable.
 
