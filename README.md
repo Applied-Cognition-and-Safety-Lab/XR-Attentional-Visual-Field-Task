@@ -27,7 +27,7 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 
 7. Build the Unity project and run the Unity-generated executable.
 
-8. The application has a built-in interface that is used to control the flow of the experiment, including starting the practice session, ending the practice session, and starting the experiment. In situations where the participant's view cannot be seen by the experimenter, the Enter key is used to start the practice session, the Right Shift key is used to run an additional practice session, the Backspace key clears out the practice mode and prepares the experiment for the task mode, and the Enter key after clearing out practice mode will start the task.
+8. The application has a built-in interface that is used to control the flow of the experiment, including starting the practice session, ending the practice session, and starting the experiment. In situations where the participant's view cannot be seen or interacted with by the experimenter, the Enter key is used to start the practice session, the Right Shift key is used to run an additional practice session, the Backspace key clears out the practice mode and prepares the experiment for the task mode, and the Enter key after clearing out practice mode will start the task.
 <br>
 <br>
 
