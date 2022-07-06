@@ -5,6 +5,7 @@ using System.IO;
 using System;
 using System.Diagnostics;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class ExperimentController : MonoBehaviour
 {
@@ -22,7 +23,12 @@ public class ExperimentController : MonoBehaviour
     public GameObject practiceInst;
     public GameObject practiceGoing;
     public GameObject practiceEnded;
+    public GameObject taskGoing;
     public RectTransform taskCanvasTransform;
+    public GameObject blockCountObj;
+    private TextMeshProUGUI blockCountValue;
+    public GameObject trialCountObj;
+    private TextMeshProUGUI trialCountValue;
     private bool practiceIsOver;
     private bool readyToPractice;
     private bool isPracticing;
@@ -130,44 +136,26 @@ public class ExperimentController : MonoBehaviour
 
         ResetIndStimCount();
         taskCanvasTransform.localPosition = new Vector3 (0, 0, .35f);
+        blockCountValue = blockCountObj.GetComponent<TextMeshProUGUI>();
+        trialCountValue = trialCountObj.GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        blockCountValue.SetText(Convert.ToString(blockCount + 1));
+        trialCountValue.SetText(Convert.ToString(trialCount + 1));
+
         //practice session 1
         if (readyToPractice && Keyboard.current.enterKey.wasReleasedThisFrame)
         {
-            readyToPractice = false;
-            isPracticing = true;
-            practiceInst.SetActive(false);
-            practiceGoing.SetActive(true);
-            practiceEnded.SetActive(false);
-            print("Practice started");
-            StartCoroutine(ShowStimuli());
+            StartPractice();
         }
 
+        //ends the practice session; must be done before starting the task below
         else if ((readyToPractice || isPracticing) && Keyboard.current.backspaceKey.wasReleasedThisFrame)
         {
-            print("Practice ended");
-            readyToPractice = false;
-            practiceIsOver = true;
-            responding = false;
-            practiceCanvas.SetActive(false);
-            StopAllCoroutines();
-            stimImgCrtr.ClearScreen();
-            isPracticing = false;
-
-
-
-
-            foreach (GameObject obj in responses)
-            {
-                obj.SetActive(false);
-            }
-
-
-            ResetIndStimCount();
+            EndPractice();
         }
 
         //practice session 2
@@ -178,28 +166,23 @@ public class ExperimentController : MonoBehaviour
             StopAllCoroutines();
             stimImgCrtr.ClearScreen();
             print("Coroutines stopped");
+            readyToPractice = true;
 
-            if(Keyboard.current.rightShiftKey.wasReleasedThisFrame)
+            //press right shift to perform another practice round
+            if (Keyboard.current.rightShiftKey.wasReleasedThisFrame)
             {
-                ResetIndStimCount();
-                trialCount = 0;
-                isPracticing = true;
-                practiceEnded.SetActive(false);
-                practiceGoing.SetActive(true);
-                print("Practice started, trial count " + trialCount);
-                StartCoroutine(ShowStimuli());
+                StartPractice();
             }
         }  
         
+        //starts the first block of the exp
         else if (!expStarted && practiceIsOver && Keyboard.current.enterKey.wasReleasedThisFrame && blockCount == 0)
         {
-            trialCount = 0;
-            expStarted = true;
-            taskTime = Time.realtimeSinceStartup;
-            StartCoroutine(ShowStimuli());
+            StartExp();
         }
 
-        if (practiceIsOver && trialCount == dataHolder.GetTrialNum() && blockCount < dataHolder.GetBlockNum())
+        //runs the next block(s) of the exp
+        if (expStarted && trialCount == dataHolder.GetTrialNum() && blockCount < dataHolder.GetBlockNum())
         {
             trialCount = 0;
             blockCount++;
@@ -224,6 +207,7 @@ public class ExperimentController : MonoBehaviour
             Application.Quit();
         }
 
+        //this handles the response to each trial
         if (responding && Keyboard.current.anyKey.wasPressedThisFrame)
         {
             if(Keyboard.current.numpad1Key.wasPressedThisFrame)
@@ -270,6 +254,63 @@ public class ExperimentController : MonoBehaviour
             print("Pos: " + responsePosition);
         }
 
+    }
+
+    public void EndPractice()
+    {
+        if (readyToPractice || isPracticing)
+        {
+            print("Practice ended");
+            readyToPractice = false;
+            practiceIsOver = true;
+            responding = false;
+            //practiceCanvas.SetActive(false);
+            StopAllCoroutines();
+            stimImgCrtr.ClearScreen();
+            isPracticing = false;
+
+
+
+
+            foreach (GameObject obj in responses)
+            {
+                obj.SetActive(false);
+            }
+
+
+            ResetIndStimCount();
+            practiceGoing.SetActive(false);
+            practiceEnded.SetActive(true);
+        }
+    }
+
+    public void StartExp()
+    {
+        if (!expStarted)
+        {
+            trialCount = 0;
+            expStarted = true;
+            taskTime = Time.realtimeSinceStartup;
+            StartCoroutine(ShowStimuli());
+            taskGoing.SetActive(true);
+            practiceEnded.SetActive(false);
+        }
+    }
+
+    public void StartPractice()
+    {
+        if (readyToPractice)
+        {
+            trialCount = 0;
+            ResetIndStimCount();
+            readyToPractice = false;
+            isPracticing = true;
+            practiceInst.SetActive(false);
+            practiceGoing.SetActive(true);
+            practiceEnded.SetActive(false);
+            print("Practice started");
+            StartCoroutine(ShowStimuli());
+        }
     }
 
 
