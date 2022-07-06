@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    public DataHolder dataHolder;
+    public ExperimentSettings dataHolder;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        dataHolder = FindObjectOfType<DataHolder>();
+        dataHolder = FindObjectOfType<ExperimentSettings>();
 
     }
 

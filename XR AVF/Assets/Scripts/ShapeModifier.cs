@@ -8,7 +8,7 @@ public class ShapeModifier : MonoBehaviour
     //can add other images for the program to select from: circles, triangles, filled in shapes, etc
     public GameObject distractor;
     public GameObject target;
-    private DataHolder dataHolder;
+    private ExperimentSettings dataHolder;
     public StimulusImageCreator imageCreator;
     // Start is called before the first frame update
     void Start()

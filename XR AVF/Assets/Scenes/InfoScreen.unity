@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 247118204}
   - component: {fileID: 247118206}
   m_Layer: 0
-  m_Name: DataHolder
+  m_Name: Experiment Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 247118203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5ae0f3f1145d374484097dce0c9c154, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a9b3a2920639ae4c89d359818abe3ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dateField: {fileID: 1213195549}
@@ -172,8 +172,8 @@ MonoBehaviour:
   breakTime: 2
   practiceTrialNum: 10
   useDistractors: 1
-  targetColor: {r: 1, g: 0.495283, b: 0.495283, a: 1}
-  distractorColor: {r: 0.9622642, g: 0.5310609, b: 0.5310609, a: 1}
+  targetColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+  distractorColor: {r: 0.5294118, g: 0.5310609, b: 0.5310609, a: 1}
   targetImg: {fileID: 2800000, guid: 58fadfbf4e9f0b04ab0e156aafd8d7bc, type: 3}
   distractorImg: {fileID: 2800000, guid: 2a23de21b91ec3548a0364485b5313d9, type: 3}
 --- !u!4 &247118205

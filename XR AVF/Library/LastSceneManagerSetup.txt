@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Task Room.unity
+- path: Assets/Scenes/InfoScreen.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637859977840000000
-    m_Hash: 1984775601
+      ticks: 637926398020000000
+    m_Hash: 3145086421
   m_LockFileStatus:
     m_FilePath: G:/XR-Attentional-Visual-Field-Task/XR AVF/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637859977840000000
-    m_Hash: 318041302
+      ticks: 637926398020000000
+    m_Hash: 4276284254
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -74,11 +74,23 @@ m_PackageAssets:
         - 1.14.7
         - 1.14.9
         - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
         - 1.15.12
+        - 1.15.13
+        - 1.15.15
+        - 1.15.16
+        - 1.15.17
+        - 1.15.18
+        - 1.17.0
+        - 1.17.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -102,6 +114,11 @@ m_PackageAssets:
         - 1.14.7
         - 1.14.9
         - 1.14.12
+        - 1.14.13
+        - 1.14.15
+        - 1.14.16
+        - 1.14.17
+        - 1.14.18
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -196,6 +213,9 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
+        - 3.0.14
+        - 3.0.15
         compatible:
         - 1.0.2
         - 1.0.6
@@ -225,6 +245,9 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
+        - 3.0.14
+        - 3.0.15
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -259,12 +282,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.7
+    - packageId: com.unity.ide.visualstudio@2.0.5
       testable: 0
       isDirectDependency: 1
-      version: 2.0.7
+      version: 2.0.5
       source: 1
-      resolvedPath: G:\XR-Attentional-Visual-Field-Task\XR AVF\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: G:\XR-Attentional-Visual-Field-Task\XR AVF\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -298,6 +321,8 @@ m_PackageAssets:
         - 2.0.11
         - 2.0.12
         - 2.0.14
+        - 2.0.15
+        - 2.0.16
         compatible:
         - 1.0.2
         - 1.0.3
@@ -316,19 +341,11 @@ m_PackageAssets:
         - 2.0.11
         - 2.0.12
         - 2.0.14
-        verified: 2.0.14
-      dependencies:
-      - name: com.unity.test-framework
-        version: 1.1.9
-      resolvedDependencies:
-      - name: com.unity.test-framework
-        version: 1.1.24
-      - name: com.unity.ext.nunit
-        version: 1.0.6
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.modules.jsonserialize
-        version: 1.0.0
+        - 2.0.15
+        - 2.0.16
+        verified: 2.0.16
+      dependencies: []
+      resolvedDependencies: []
       keywords: []
       registry:
         id: main
@@ -342,13 +359,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 637400980850000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: dec282022c7a95fada560c36f53da9dd155a142c
+        revision: 83ca94e82bb6da515dc57e0d860b6b2224f56991
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0
@@ -384,6 +401,7 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
+        - 1.2.5
         compatible:
         - 1.0.2
         - 1.0.3
@@ -397,7 +415,8 @@ m_PackageAssets:
         - 1.2.2
         - 1.2.3
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -473,6 +492,8 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         - 1.1.30
+        - 1.1.31
+        - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
@@ -481,9 +502,11 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         - 1.1.30
+        - 1.1.31
+        - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
-        verified: 1.1.30
+        verified: 1.1.31
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -623,6 +646,7 @@ m_PackageAssets:
         - 2.1.6
         - 2.2.0-preview.1
         - 2.2.0-preview.2
+        - 2.2.0-preview.3
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -642,6 +666,7 @@ m_PackageAssets:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         - 4.0.0-pre.1
         compatible:
         - 3.0.1
@@ -651,6 +676,7 @@ m_PackageAssets:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -779,6 +805,8 @@ m_PackageAssets:
         - 1.6.4
         - 1.7.0-pre.1
         - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
         compatible:
         - 1.4.7
         - 1.4.8
@@ -806,6 +834,8 @@ m_PackageAssets:
         - 1.6.4
         - 1.7.0-pre.1
         - 1.7.0-pre.2
+        - 1.7.0
+        - 1.7.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -1093,6 +1123,9 @@ m_PackageAssets:
         - 1.2.8
         - 1.3.0
         - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
         compatible:
         - 0.1.1-preview.1
         - 0.1.2-preview.2
@@ -1105,6 +1138,9 @@ m_PackageAssets:
         - 1.2.8
         - 1.3.0
         - 1.3.1
+        - 1.4.0
+        - 1.4.1
+        - 1.4.2
         verified: 1.1.1
       dependencies:
       - name: com.unity.xr.management
@@ -2946,9 +2982,13 @@ m_PackageAssets:
         - 2.1.4
         - 2.1.6
         - 2.1.7
+        - 2.1.8
+        - 2.1.9
         compatible:
         - 2.1.7
-        verified: 2.1.7
+        - 2.1.8
+        - 2.1.9
+        verified: 2.1.9
       dependencies:
       - name: com.unity.modules.vr
         version: 1.0.0
@@ -3044,6 +3084,7 @@ m_PackageAssets:
         - 1.1.1
         - 1.2.0
         - 1.3.0
+        - 1.4.1
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -3077,6 +3118,7 @@ m_PackageAssets:
         - 1.1.1
         - 1.2.0
         - 1.3.0
+        - 1.4.1
         verified: 1.0.2
       dependencies: []
       resolvedDependencies: []
@@ -3135,10 +3177,12 @@ m_PackageAssets:
         - 1.0.5
         - 1.0.6
         - 1.1.0
+        - 1.1.1
         compatible:
         - 1.0.6
         - 1.1.0
-        verified: 1.1.0
+        - 1.1.1
+        verified: 1.1.1
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3192,6 +3236,8 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3199,6 +3245,8 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
+        - 2.0.3
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []

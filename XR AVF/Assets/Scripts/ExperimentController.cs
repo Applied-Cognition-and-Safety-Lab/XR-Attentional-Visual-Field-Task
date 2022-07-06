@@ -9,7 +9,7 @@ using UnityEngine.InputSystem;
 public class ExperimentController : MonoBehaviour
 {
     public string filePath;
-    public string headers = "Block,Trial,Reaction Time,Eccentricity,StimulusDirection,Response,Actual Display Time,Set Display Time";
+    private string headers = "Block,Trial,Reaction Time,Eccentricity,StimulusDirection,Response,Actual Display Time,Set Display Time";
     private int[][][] rndTrialCount;
     private int numOfDirects;
     private int numOfEccs;
@@ -41,7 +41,7 @@ public class ExperimentController : MonoBehaviour
     //                                                1      2    3   4     6     7    8     9
     //                                                0       1   2   3     4     5     6     7
     private string[] responseDirection = new string[] { "SW", "S", "SE", "W", "E", "NW", "N", "NE" };
-    private DataHolder dataHolder;
+    private ExperimentSettings dataHolder;
     public StimulusImageCreator stimImgCrtr;
 
     public float startTime = 0;

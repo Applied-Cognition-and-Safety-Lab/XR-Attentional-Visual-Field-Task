@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class StimulusImageCreator : MonoBehaviour
 {
-    private DataHolder dataHolder;
+    private ExperimentSettings dataHolder;
     public GameObject target;
     public GameObject distractor;
     private GameObject[][] distractors;
