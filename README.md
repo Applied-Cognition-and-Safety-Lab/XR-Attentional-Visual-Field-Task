@@ -55,6 +55,7 @@ Distractor Img | Determines what image the distractor stimuli are. Note: if an a
 
 # Data Output
 Data collected with this experiment will be stored in a CSV file with the entered date and participant number. This file will be available in the same directory as the executable used to run the experiment. The following image and table provide more information on what data is collected.
+
 ![Response File](https://user-images.githubusercontent.com/105318271/177618335-23054912-c553-4d07-8872-c1fb93b08f4e.png)
 
 Setting | Description
