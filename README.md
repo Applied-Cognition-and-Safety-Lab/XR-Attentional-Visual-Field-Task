@@ -21,7 +21,7 @@ The project is intended to work on the HTC Vive (Pro). Please refer to the accor
 
 - [Getting Started](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/Getting%20Started.md)
 - [Experiment Settings](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/ExperimentSettings.md)
-- [Data Output] (https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/DataOutput.md)
+- [Data Output](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/DataOutput.md)
 
 # Data Output
 Data collected with this experiment will be stored in a CSV file with the entered date and participant number. This file will be available in the same directory as the executable used to run the experiment. The following image and table provide more information on what data is collected.
