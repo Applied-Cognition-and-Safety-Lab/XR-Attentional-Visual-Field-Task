@@ -19,8 +19,8 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 
 The project is intended to work on the HTC Vive (Pro). Please refer to the according sections for the Setup Intrstructions.
 
-- ([GettingStarted.md](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/Getting%20Started.md))
-- (.[ExperimentSettings.md](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/ExperimentSettings.md))
+- [GettingStarted.md](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/Getting%20Started.md)
+- [ExperimentSettings.md](https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/ExperimentSettings.md)
 
 
 # Data Output
