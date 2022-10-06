@@ -10,6 +10,8 @@ Traditionally, an Attentional Visual Field task is developed for and conducted o
 
 ## XR Attentional Visual Field Task
 
+<img width="536" alt="Screenshot 2022-10-06 143107 1628" src="https://user-images.githubusercontent.com/105318271/194402883-93de3754-64be-49a9-970e-9a89e8d8d00d.png">
+
 This XR Attentional Visual Field Task is based on the computer-based AVF task. It has been developed to work with most VR and AR headsets by implementing the OpenXR API within the Unity3D game engine. This project uses Unity version 2020.3.7f1. Participants respond to the trials by using a numpad to indicate the direction that the target stimulus appeared in. For example, a response of 7 on the numpad would indicate that the target appeared in the top left or Northeast area of the visual field.
 <br>
 <br>
