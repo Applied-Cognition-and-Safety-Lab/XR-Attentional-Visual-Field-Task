@@ -1,6 +1,6 @@
 ![1-s2 0-S0003687022001272-gr1_lrg](https://user-images.githubusercontent.com/105318271/193877517-d1339ffb-e356-497a-8121-3ec1c17871a9.jpg) An illustration of the the displays in an example trial of the Attentional Visual Field Task as shown by Yuan et al., 2022. 
 
-Visual attention is critical for everyday task performance and safety. It allows people to detect and process critical visual objects, information, and potential hazards in an environment to respond to. "The Attentional Visual Field Task (AVF) is an established, computerized method for assessing the distribution of visual attention across a wide visual field. In this task, people need to attend to a large visual field and identify a target among 15 distractors.The target and distractors are located in eight different directions and two eccentricities. This laboratory task uses a rigorous paradigm setting of fixation, interval, target, mask, and response (Yuan et al., 2022)." 
+Visual attention is critical for everyday task performance and safety. It allows people to detect and process critical visual objects, information, and potential hazards in an environment to respond to. "The Attentional Visual Field Task (AVF) is an established, computerized method for assessing the distribution of visual attention across a wide visual field. In this task, people need to attend to a large visual field and identify a target among 15 distractors.The target and distractors are located in eight different directions and two eccentricities (Yuan et al., 2022)." 
 
 ## Attentional Visual Field (AVF) Task
 
@@ -10,7 +10,7 @@ Traditionally, an Attentional Visual Field task is developed for and conducted o
 
 ## XR Attentional Visual Field Task
 
-<img width="536" alt="Screenshot 2022-10-06 143107 1628" src="https://user-images.githubusercontent.com/105318271/194402883-93de3754-64be-49a9-970e-9a89e8d8d00d.png">
+<img width="412" alt="Screenshot 2022-10-06 144643 1632" src="https://user-images.githubusercontent.com/105318271/194405056-48a09161-5136-4298-980b-5557f87527e6.png">"A condensed version of the AVF task in the Virtual Environment. 
 
 This XR Attentional Visual Field Task is based on the computer-based AVF task. It has been developed to work with most VR and AR headsets by implementing the OpenXR API within the Unity3D game engine. This project uses Unity version 2020.3.7f1. Participants respond to the trials by using a numpad to indicate the direction that the target stimulus appeared in. For example, a response of 7 on the numpad would indicate that the target appeared in the top left or Northeast area of the visual field.
 <br>
