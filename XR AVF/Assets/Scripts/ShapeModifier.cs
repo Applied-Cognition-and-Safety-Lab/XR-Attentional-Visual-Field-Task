@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,7 +17,7 @@ public class ShapeModifier : MonoBehaviour
         dataHolder = GameManager.Instance.dataHolder;
         ChangeImage(distractor, dataHolder.GetDistrImg());
         ChangeImage(target, dataHolder.GetTargImg());
-        ScaleImage(distractor, 0); 
+        ScaleImage(distractor, 0);
         ScaleImage(target, 1);
         ChangeColor(distractor, dataHolder.GetDistrColor());
         ChangeColor(target, dataHolder.GetTargColor());
@@ -41,34 +42,34 @@ public class ShapeModifier : MonoBehaviour
         obj.GetComponent<RawImage>().color = color;
     }
 
-    //scale based on 10 degrees of visual angle and 350 mm from the screen, obj is 61.24 mm vert and horiz, base stimulus is 10 deg circle
-    // with 6 degree filled in square inside
-    //Visual angle formula: Visual angle = 2 * inverse tan ((object size / 2) / object distance)
+
     //size = 2 * object distance * (tan (visual angle / 2))
     //objType 0 is distractor; objType 1 is target
     public void ScaleImage(GameObject obj, int objType)
     {
-        float sizeMili;
+        //sizeCanv is the size of the object in unity canvas units 
+        float sizeCanv;
 
         //calculate size for distractor
-        if(objType == 0)
+        if (objType == 0)
         {
-            sizeMili = 2 * dataHolder.GetSreenDistance() * (Mathf.Tan((dataHolder.GetDistrVisualAngle() / 2) * Mathf.Deg2Rad));
-            print("Distractor scale");
+            //Using Mathf.Deg2Rad to convert visual angle from degrees to radians b/c Mathf.Tan uses radians
+            sizeCanv = 2 * ((Mathf.Tan((dataHolder.GetDistrVisualAngle() / 2) * Mathf.Deg2Rad) * dataHolder.GetScreenDistance()) / 24.4965f);
         }
 
         //calculate size for target
         else
         {
-            sizeMili = 2 * dataHolder.GetSreenDistance() * (Mathf.Tan((dataHolder.GetTargVisualAngle() / 2) * Mathf.Deg2Rad));
-            print("Target scale");
+            //Using Mathf.Deg2Rad to convert visual angle from degrees to radians b/c Mathf.Tan uses radians
+            sizeCanv = 2 * ((Mathf.Tan((dataHolder.GetTargVisualAngle() / 2) * Mathf.Deg2Rad) * dataHolder.GetScreenDistance()) / 24.4965f);
         }
 
-        float sizeModifier = sizeMili / 61.24f;
-        //float sizeModifier = sizeMili / 17.5f;
-        print("Size Modifier: " + sizeModifier);
-        obj.transform.localScale = sizeModifier * obj.transform.localScale;
+        obj.transform.localScale = new Vector3(sizeCanv, sizeCanv);
+        
+        print("tan " + 2 * ((Mathf.Tan((dataHolder.GetTargVisualAngle() / 2) * Mathf.Deg2Rad) * dataHolder.GetScreenDistance())));
+        print("object size: " + obj.transform.localScale);
+        print("screen distance " + dataHolder.GetScreenDistance());
+        print("visual angle " + dataHolder.GetTargVisualAngle());
+        print("sizeCanv " + sizeCanv);
     }
-
-
 }
