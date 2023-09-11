@@ -122,27 +122,32 @@ public class StimulusImageCreator : MonoBehaviour
             for (int j = 0; j < numOfEcc; j++)
             {
                 //add in horizontal and vertical ecc modifiers
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
-                    locations[i][j] = new Vector2(horzMod[i] * dataHolder.GetEccs(j) / 2, vertMod[i] * dataHolder.GetEccs(j) / 2);
+                    locations[i][j] = new Vector2(horzMod[i] * dataHolder.GetEccs(j), vertMod[i] * dataHolder.GetEccs(j));
+                    print("locations  " + locations[i][j]);
                 }
 
+                //diagonal eccentricities
                 else
                 {
-                    locations[i][j] = new Vector2(horzMod[i] * dataHolder.GetEccs(j) / 2 * Mathf.Sqrt(2) / 2, vertMod[i] * dataHolder.GetEccs(j) / 2 * Mathf.Sqrt(2) / 2);
+                    locations[i][j] = new Vector2(horzMod[i] * dataHolder.GetEccs(j) * Mathf.Sqrt(2) / 2,  vertMod[i] * dataHolder.GetEccs(j) * Mathf.Sqrt(2) / 2);
+                    print("location diaganol " + locations[i][j]);
                 }
-
-                if(dataHolder.DistractorsUsed())
+                
+                if (dataHolder.DistractorsUsed())
                 {
                     distractors[i][j] = GameObject.Instantiate(distractor, distractor.transform.parent);
                     distractors[i][j].GetComponent<RectTransform>().anchoredPosition = locations[i][j];
                     distrCount++;
                     print("Distractor count: " + distrCount);
                 }
-                
+
             }
 
         }
+
+        print("object distance: " + locations[0][0]);
 
         targColor = target.GetComponent<RawImage>().color;
         clearedColor = new Color(targColor.r, targColor.g, targColor.b, 0);
