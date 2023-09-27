@@ -23,7 +23,8 @@ public class ExperimentSettings : MonoBehaviour
     public float distractorVisualAngle;
     private float screenDistance;
     private int numberOfEcc;
-    public float[] eccentricities;
+    public float[] degEccentricities;
+    private float[] eccentricities;
     public float[] exposureTimes;
     private int numberOfExp;
     private float targetExposure;
@@ -41,7 +42,7 @@ public class ExperimentSettings : MonoBehaviour
     private void Awake()
     {
         distractorsPresent = true;
-        numberOfEcc = eccentricities.Length;
+        numberOfEcc = degEccentricities.Length;
         numberOfExp = exposureTimes.Length;
         numberOfDirec = 8;
         numOfTrials = numberOfDirec * numberOfEcc * numberOfExp * trialRepetitions;
@@ -56,7 +57,7 @@ public class ExperimentSettings : MonoBehaviour
         targetDirection = "";
         targetEccentricity = 0f;
         targetExposure = 0;
-        
+        ConvEccs();
         
     }
 
@@ -124,7 +125,7 @@ public class ExperimentSettings : MonoBehaviour
                 break;
         }
 
-        targetEccentricity = eccentricities[eccentricity];
+        targetEccentricity = degEccentricities[eccentricity];
         targetExposure = exposureTimes[exposure];
         
     }
@@ -159,6 +160,31 @@ public class ExperimentSettings : MonoBehaviour
         return numberOfEcc;
     }
 
+    public float GetDegEccs(int index)
+    {
+        return degEccentricities[index];
+    }
+
+    private float CalcEccs(int index)
+    {
+        float distConv;
+        distConv = (Mathf.Tan((GetDegEccs(index)) * Mathf.Deg2Rad) * GetScreenDistance()) / 12.8542f;
+        print("whatever this " + Mathf.Tan((GetDegEccs(index)) * Mathf.Deg2Rad));
+        print("whatever this is 2 " + Mathf.Tan((GetDegEccs(index)) * Mathf.Deg2Rad) * GetScreenDistance());
+        print("distConv " + distConv);
+        print("Degrees Got " + GetDegEccs(index));
+        return distConv;
+    }
+
+    private void ConvEccs()
+    {
+        eccentricities = new float[degEccentricities.Length];
+        for (int i = 0; i < degEccentricities.Length; i++)
+        {
+            eccentricities[i] = CalcEccs(i);
+        }
+    }
+
     public float GetEccs(int index)
     {
         return eccentricities[index];
@@ -174,7 +200,7 @@ public class ExperimentSettings : MonoBehaviour
         return exposureTimes.Length;
     }
 
-    public float GetSreenDistance()
+    public float GetScreenDistance()
     {
         return screenDistance;
     }
