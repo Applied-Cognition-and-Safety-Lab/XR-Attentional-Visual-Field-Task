@@ -2,7 +2,7 @@
 ![Exp Settings](https://user-images.githubusercontent.com/105318271/177431751-725002e8-59d5-478c-ad72-bf67ff205285.png)
 
 <img width="365" alt="Screen Shot 2023-09-28 at 1 15 16 PM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/a4053d8b-aaf8-441b-aa8d-9b64a1ab7609">
-An example stimulus displaying three eccentricities (e.g., 10, 20, and 30) with distractors used.
+<br>An example stimulus displaying three eccentricities (e.g., 10, 20, and 30) with distractors used.
 
 
 Setting | Description
