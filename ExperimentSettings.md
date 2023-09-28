@@ -2,7 +2,7 @@
 ![Exp Settings](https://user-images.githubusercontent.com/105318271/177431751-725002e8-59d5-478c-ad72-bf67ff205285.png)
 
 <p align="center" width="100%">
-    <img width="40%" src= "https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/a275f097-fe50-407f-9261-4ad6da2b5128">
+    <img width="40%" src= "https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/33055fee-0227-44ff-ade5-a169b9baa8ac">
 </p>
 
 <br>An example stimulus displaying three eccentricities (e.g., 10, 20, and 30) with distractors used.
