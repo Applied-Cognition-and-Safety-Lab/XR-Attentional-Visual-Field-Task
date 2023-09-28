@@ -3,7 +3,7 @@
 
 <img width="365" alt="Screen Shot 2023-09-28 at 1 15 16 PM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/a4053d8b-aaf8-441b-aa8d-9b64a1ab7609">
 <br>An example stimulus displaying three eccentricities (e.g., 10, 20, and 30) with distractors used.
-
+Below you will find an explanation of how each setting can change the experiment look.
 
 Setting | Description
 ------------ | -------------
