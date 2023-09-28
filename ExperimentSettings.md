@@ -2,6 +2,7 @@
 ![Exp Settings](https://user-images.githubusercontent.com/105318271/177431751-725002e8-59d5-478c-ad72-bf67ff205285.png)
 Setting | Description
 ------------ | -------------
+![Exp Settings]https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/Screen%20Shot%202023-09-28%20at%201.15.16%20PM.png
 Num Of Blocks | Determines how many blocks the experiment will have.
 Target Visual Angle | The size of the target stimulus in the number of degrees in visual angle.
 Distractor Visual Angle | The size of the distractor stimuli in the number of degrees in visual angle.
