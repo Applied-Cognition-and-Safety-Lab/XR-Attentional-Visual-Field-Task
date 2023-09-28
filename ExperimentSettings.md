@@ -1,7 +1,9 @@
 # Explanation of Experiment Settings
 ![Exp Settings](https://user-images.githubusercontent.com/105318271/177431751-725002e8-59d5-478c-ad72-bf67ff205285.png)
 
-<img width="289" alt="Screen Shot 2023-09-28 at 1 59 44 PM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/9d6821f1-87d0-496e-9e18-299e3460b2e2">
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/139845c0-fe68-4c23-a995-5bc043601ad6">
+</p>
 
 <br>An example stimulus displaying three eccentricities (e.g., 10, 20, and 30) with distractors used.
 Below you will find an explanation of how each setting can change the stimulus. 
@@ -9,16 +11,7 @@ Below you will find an explanation of how each setting can change the stimulus.
 Setting | Description | Example Image
 ------------ | ------------- | -------------
 Num Of Blocks | Determines how many blocks the experiment will have.
-Target Visual Angle | The size of the target stimulus in the number of degrees in visual angle. | 
-**Align center:**
-<p align="center" width="100%">
-    <img width="33%" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/139845c0-fe68-4c23-a995-5bc043601ad6">
-</p>
-
-<img width="1500" alt="Target Visual Angle Increased" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/139845c0-fe68-4c23-a995-5bc043601ad6">
-
-
-<br> 
+Target Visual Angle | The size of the target stimulus in the number of degrees in visual angle. | <img width="1500" alt="Target Visual Angle Increased" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/139845c0-fe68-4c23-a995-5bc043601ad6">
 Distractor Visual Angle | The size of the distractor stimuli in the number of degrees in visual angle.
 Eccentricities | The number of locations in each direction that a target will appear in. Expand this list to set the individual eccentricity values to control exactly where the stimuli will appear in the number of degrees in visual angle. Example values include 10, 20, and 30. These values would represent 10, 20, and 30 degrees of visual angle.
 Exposure Times | The number of different display times that each target will appear for. Expand this list to set the individual exposure time values to control exactly how long the target stimulus will be visible for in each trial in seconds. Example values include .04, .06, .10. These values would represent 40, 60, and 100 ms, respectively.
