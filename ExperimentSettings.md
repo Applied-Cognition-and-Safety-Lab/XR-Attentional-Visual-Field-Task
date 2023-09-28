@@ -4,7 +4,8 @@ Setting | Description
 ------------ | -------------
 Num Of Blocks | Determines how many blocks the experiment will have.
 Target Visual Angle | The size of the target stimulus in the number of degrees in visual angle.
-Distractor Visual Angle | The size of the distractor stimuli in the number of degrees in visual angle.
+Distractor V<img width="365" alt="Screen Shot 2023-09-28 at 1 15 16 PM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/a4053d8b-aaf8-441b-aa8d-9b64a1ab7609">
+isual Angle | The size of the distractor stimuli in the number of degrees in visual angle.
 Eccentricities | The number of locations in each direction that a target will appear in. Expand this list to set the individual eccentricity values to control exactly where the stimuli will appear in the number of degrees in visual angle. Example values include 10, 20, and 30. These values would represent 10, 20, and 30 degrees of visual angle.
 Exposure Times | The number of different display times that each target will appear for. Expand this list to set the individual exposure time values to control exactly how long the target stimulus will be visible for in each trial in seconds. Example values include .04, .06, .10. These values would represent 40, 60, and 100 ms, respectively.
 Trial Repetitions | Determines how many times each unique trial will be presented in each block. A unique trial is comprised of an eccentricity, an exposure time, and a direction within the visual field. Stimuli will appear in 8 different directions in any iteration of this experiment as it is based on the computer AVF task. In this example image, there would be 72 unique trials (8 directions x 3 eccentricities x 3 exposure times) per block. 2 trial repetitions would lead to there being 144 total trials in the experiment.
@@ -19,4 +20,4 @@ Target Img | Determines what image the target stimulus is. Note: if an alternate
 Distractor Img | Determines what image the distractor stimuli are. Note: if an alternate distractor image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.
 <br>
 <br>
-![Exp Settings]https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/blob/main/Screen%20Shot%202023-09-28%20at%201.15.16%20PM.png
+
