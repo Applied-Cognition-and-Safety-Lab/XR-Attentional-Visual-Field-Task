@@ -6,8 +6,8 @@
 <br>An example stimulus displaying three eccentricities (e.g., 10, 20, and 30) with distractors used.
 Below you will find an explanation of how each setting can change the stimulus. 
 
-Setting | Description
------------- | -------------
+Setting | Description | Image
+------------ | ------------- | -------------
 Num Of Blocks | Determines how many blocks the experiment will have.
 Target Visual Angle | The size of the target stimulus in the number of degrees in visual angle.
 Distractor Visual Angle | The size of the distractor stimuli in the number of degrees in visual angle.
