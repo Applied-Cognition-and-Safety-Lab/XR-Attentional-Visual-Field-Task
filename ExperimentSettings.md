@@ -24,8 +24,8 @@ Practice Trial Num | The number of randomly selected trials (based on the criter
 Use Distractors | Determines if distractor images will be used during the stimulus presentation.|<img width="734" alt="Screen Shot 2023-09-29 at 10 15 36 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/fea23004-2163-44ba-bae2-28fe630c0b11">
 Target Color | Determines what color the target stimulus will appear as. | <img width="658" alt="Screen Shot 2023-09-29 at 10 32 50 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/86706a8e-5a57-4533-8752-6d616b57bd79">
 Distractor Color | Determines what color the distractor stimuli will appear as.| <img width="655" alt="Screen Shot 2023-09-29 at 10 26 34 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/ec9b8f83-e939-4e02-84dc-8ad0dfc22081">
-Target Img | Determines what image the target stimulus is. Note: if an alternate target image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.
-Distractor Img | Determines what image the distractor stimuli are. Note: if an alternate distractor image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.
+Target Img | Determines what image the target stimulus is. Note: if an alternate target image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.<img width="660" alt="Screen Shot 2023-09-29 at 10 39 34 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/e9dac977-98fc-460c-8026-bea9044934b8">
+Distractor Img | Determines what image the distractor stimuli are. Note: if an alternate distractor image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.<img width="599" alt="Screen Shot 2023-09-29 at 10 38 00 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/4a79c6bf-9b3c-41af-9d49-8427ed455ebe">
 <br>
 <br>
 
