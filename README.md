@@ -20,6 +20,11 @@ This XR Attentional Visual Field Task is based on the computer-based AVF task. I
 <br>For a detailed explanation, please refer to the CHI EA article: https://dl.acm.org/doi/10.1145/3491101.3519698
 </br>
 
+<br> For a visual representation of the XR AVF Task:
+<img width="1154" alt="Screen Shot 2023-09-29 at 2 18 07 PM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/e7b3a981-6da9-4b58-98a8-3cda4b886749">
+</br>
+
+
 ### Table of contents
 
 The project has been tested on the HTC Vive (Pro) and the Valve Index, however visual angle may differ in other VR or AR devices. 
