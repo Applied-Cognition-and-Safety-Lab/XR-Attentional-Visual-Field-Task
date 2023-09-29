@@ -21,9 +21,9 @@ Mask Display Time | The length of time in seconds that the masking image will be
 Response Window | The length of time in seconds that participants will have to respond after the target stimulus is presented. The value of 2 shown in the image represents 2 seconds.
 Break Time | The length of time in seconds that participants will have between the presentation of each trial. The value of 2 shown in the image represents 2 seconds.
 Practice Trial Num | The number of randomly selected trials (based on the criteria entered in each setting) that participants will have the chance to respond to in the practice session that occurs before the experiment starts.
-Use Distractors | Determines if distractor images will be used during the stimulus presentation.
-Target Color | Determines what color the target stimulus will appear as.
-Distractor Color | Determines what color the distractor stimuli will appear as.
+Use Distractors | Determines if distractor images will be used during the stimulus presentation.|<img width="734" alt="Screen Shot 2023-09-29 at 10 15 36 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/fea23004-2163-44ba-bae2-28fe630c0b11">
+Target Color | Determines what color the target stimulus will appear as. | 
+Distractor Color | Determines what color the distractor stimuli will appear as.| <img width="655" alt="Screen Shot 2023-09-29 at 10 26 34 AM" src="https://github.com/Applied-Cognition-and-Safety-Lab/XR-Attentional-Visual-Field-Task/assets/105318271/ec9b8f83-e939-4e02-84dc-8ad0dfc22081">
 Target Img | Determines what image the target stimulus is. Note: if an alternate target image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.
 Distractor Img | Determines what image the distractor stimuli are. Note: if an alternate distractor image is desired, ensure that it is equal in height and length and approximately 66 x 66 pixels.
 <br>
